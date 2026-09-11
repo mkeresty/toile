@@ -1,0 +1,1 @@
+"use client";import * as React from "react";export function DrawIn({children,delay=0,className=""}:{children:React.ReactNode;delay?:number;className?:string}){return <div className={`toile-draw-in ${className}`} style={{"--draw-delay":`${delay}ms`} as React.CSSProperties}>{children}</div>}
