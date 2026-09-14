@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" role="img" aria-labelledby="boat-title boat-desc">
+  <title id="boat-title">Sailboat</title>
+  <desc id="boat-desc">Vector-ready toile sailboat separated into semantic drawing paths.</desc>
+  <g id="boat-fills">
+    <path fill="#fbf7e9" d="M1613.5 611 1593 702.5h20.5Z"/>
+    <path fill="#fbf7e9" d="m1618.5 623 16.5 79.5h-16.5Z"/>
+    <path fill="#3e76bd" d="M1590 707c11 3 38 3 49.5 0-2.5 8-6.5 12-12.5 14.5-10 3.5-22 3-31-1.5-4-4-5.5-9-6-13Z"/>
+  </g>
+  <g id="boat-draw-paths" fill="none" stroke="#0f4d9a" stroke-linecap="round" stroke-linejoin="round">
+    <path id="boat-mast" data-part="mast" pathLength="1" stroke-width=".9" d="M1616 596v112"/>
+    <path id="boat-flag" data-part="flag" pathLength="1" stroke-width=".75" d="M1616 596c5-4 10 0 14 1-5 2-10 1-14 1"/>
+    <path id="boat-left-sail-outline" data-part="left-sail" pathLength="1" stroke-width=".85" d="m1613.5 611-20.5 91.5h20.5Z"/>
+    <path id="boat-right-sail-outline" data-part="right-sail" pathLength="1" stroke-width=".85" d="m1618.5 623 16.5 79.5h-16.5Z"/>
+    <path id="boat-left-sail-panel" data-part="sail-detail" pathLength="1" stroke-width=".48" d="M1611.5 624c-5.5 26-11 52-15.5 73"/>
+    <path id="boat-right-sail-panel" data-part="sail-detail" pathLength="1" stroke-width=".48" d="M1620.5 636c4.5 20 9 43 12.5 61"/>
+    <path id="boat-boom" data-part="boom" pathLength="1" stroke-width=".85" d="M1592 704h46"/>
+    <path id="boat-hull-outline" data-part="hull" pathLength="1" stroke-width=".9" d="M1589.5 706c10.5 2 38.5 2 50.5 0-2 7-5 12-12 15-10 4-24 3-32-1-4-4-6-9-6.5-14Z"/>
+    <path id="boat-gunwale" data-part="hull-detail" pathLength="1" stroke-width=".55" d="M1593 710c12 3 33 3 44 0"/>
+    <path id="boat-cabin" data-part="hull-detail" pathLength="1" stroke-width=".55" d="M1603 711c4-3 19-3 24 0l-2 4h-21Z"/>
+    <path id="boat-hull-detail" data-part="hull-detail" pathLength="1" stroke-width=".48" d="M1597 718c11 2.5 26 2.5 35-.5"/>
+  </g>
+  <g id="boat-reflection" fill="none" stroke="#3e76bd" stroke-width=".5" stroke-linecap="round">
+    <path id="boat-reflection-1" data-part="reflection" pathLength="1" opacity=".72" d="M1595 727c12 2 30 2 40 0"/>
+    <path id="boat-reflection-2" data-part="reflection" pathLength="1" opacity=".62" d="M1598 733c10 2 25 2 33 0"/>
+    <path id="boat-reflection-3" data-part="reflection" pathLength="1" opacity=".52" d="M1601 739c8 2 20 2 27 0"/>
+    <path id="boat-reflection-4" data-part="reflection" pathLength="1" opacity=".42" d="M1605 745c6 1.5 13 1.5 19 0"/>
+  </g>
+</svg>

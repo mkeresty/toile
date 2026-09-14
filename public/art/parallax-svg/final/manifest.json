@@ -1,0 +1,65 @@
+[
+  {
+    "id": "water",
+    "source": "public/art/parallax/01-water.png",
+    "output": "public/art/parallax-svg/final/water.svg",
+    "bytes": 27514226,
+    "paths": 369591
+  },
+  {
+    "id": "left-land-underlay",
+    "source": "public/art/parallax/02-left-land-underlay.png",
+    "output": "public/art/parallax-svg/final/left-land-underlay.svg",
+    "bytes": 9355971,
+    "paths": 138231
+  },
+  {
+    "id": "left-gap-bushes",
+    "source": "public/art/parallax/02b-left-gap-bushes.png",
+    "output": "public/art/parallax-svg/final/left-gap-bushes.svg",
+    "bytes": 1911574,
+    "paths": 28745
+  },
+  {
+    "id": "mountains",
+    "source": "public/art/parallax/03-distant-mountains.png",
+    "output": "public/art/parallax-svg/final/mountains.svg",
+    "bytes": 13580435,
+    "paths": 187285
+  },
+  {
+    "id": "background-village",
+    "source": "public/art/parallax/04-background-village-and-plants.png",
+    "output": "public/art/parallax-svg/final/background-village.svg",
+    "bytes": 26292054,
+    "paths": 375095
+  },
+  {
+    "id": "boat",
+    "source": "public/art/parallax/05-boat.png",
+    "output": "public/art/parallax-svg/final/boat.svg",
+    "bytes": 214269,
+    "paths": 2836
+  },
+  {
+    "id": "main-villa",
+    "source": "public/art/parallax/06-main-villa-and-attached-plants.png",
+    "output": "public/art/parallax-svg/final/main-villa.svg",
+    "bytes": 18977815,
+    "paths": 270886
+  },
+  {
+    "id": "left-wall",
+    "source": "public/art/parallax/07-left-stone-wall.png",
+    "output": "public/art/parallax-svg/final/left-wall.svg",
+    "bytes": 7243247,
+    "paths": 105690
+  },
+  {
+    "id": "foreground-plants",
+    "source": "public/art/parallax/08-foreground-olive-branches.png",
+    "output": "public/art/parallax-svg/final/foreground-plants.svg",
+    "bytes": 8467421,
+    "paths": 120132
+  }
+]

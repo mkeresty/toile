@@ -1,3 +1,3 @@
-import type {Metadata} from "next";import "./globals.css";
-export const metadata:Metadata={title:"Toile — Interfaces, drawn into being",description:"An open-source React component library where editorial illustration, semantic HTML, and restrained motion become one object.",openGraph:{title:"Toile — Interfaces, drawn into being",description:"Source-owned illustrated React components.",images:["/og.png"]},twitter:{card:"summary_large_image",title:"Toile — Interfaces, drawn into being",description:"Source-owned illustrated React components.",images:["/og.png"]}};
+import type {Metadata} from "next";import "./globals.css";import "./layers.css";
+export const metadata:Metadata={title:"Toile Parallax",description:"A scrolling layered Mediterranean toile illustration."};
 export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}

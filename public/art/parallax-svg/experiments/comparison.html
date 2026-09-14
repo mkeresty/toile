@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Boat vectorization library comparison</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#fbf7e9;color:#0f4d9a;font:14px/1.35 system-ui,sans-serif}
+    main{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1px;background:#d9d1bf}
+    .card{display:grid;grid-template-rows:minmax(0,1fr) auto;min-height:100vh;background:#fbf7e9;color:inherit;text-decoration:none;overflow:hidden}
+    img{width:100%;height:calc(100vh - 42px);object-fit:contain;image-rendering:auto}
+    span{padding:11px 14px;text-align:center;border-top:1px solid #d9d1bf;text-transform:capitalize}
+  </style>
+</head>
+<body><main>
+      <a class="card" href="/art/parallax/05-boat.png">
+        <img src="./05-boat-png-reference-preview.png" alt="PNG reference">
+        <span>PNG reference</span>
+      </a>
+      <a class="card" href="./05-boat-vtracer-detailed.svg">
+        <img src="./05-boat-vtracer-detailed-preview.png" alt="vtracer detailed">
+        <span>vtracer detailed</span>
+      </a>
+      <a class="card" href="./05-boat-vtracer-toile.svg">
+        <img src="./05-boat-vtracer-toile-preview.png" alt="vtracer toile">
+        <span>vtracer toile</span>
+      </a>
+      <a class="card" href="./05-boat-vtracer-balanced.svg">
+        <img src="./05-boat-vtracer-balanced-preview.png" alt="vtracer balanced">
+        <span>vtracer balanced</span>
+      </a>
+      <a class="card" href="./05-boat-imagetracer-detailed.svg">
+        <img src="./05-boat-imagetracer-detailed-preview.png" alt="imagetracer detailed">
+        <span>imagetracer detailed</span>
+      </a>
+      <a class="card" href="./05-boat-potrace-8-level.svg">
+        <img src="./05-boat-potrace-8-level-preview.png" alt="potrace 8 level">
+        <span>potrace 8 level</span>
+      </a>
+      <a class="card" href="./05-boat-vecline-centerline.svg">
+        <img src="./05-boat-vecline-centerline-preview.png" alt="vecline centerline">
+        <span>vecline centerline</span>
+      </a>
+      <a class="card" href="./05-boat-skeleton-tracing-multipass.svg">
+        <img src="./05-boat-skeleton-tracing-multipass-preview.png" alt="skeleton tracing multipass">
+        <span>skeleton tracing multipass</span>
+      </a></main></body>
+</html>

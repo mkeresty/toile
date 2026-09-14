@@ -1,0 +1,110 @@
+[
+  {
+    "id": "water",
+    "file": "01-water.png",
+    "bounds": {
+      "left": 0,
+      "top": 602,
+      "width": 1672,
+      "height": 339
+    },
+    "pathCount": 925,
+    "output": "public/art/parallax-svg/contours/water.svg"
+  },
+  {
+    "id": "left-land-underlay",
+    "file": "02-left-land-underlay.png",
+    "bounds": {
+      "left": 0,
+      "top": 453,
+      "width": 704,
+      "height": 488
+    },
+    "pathCount": 894,
+    "output": "public/art/parallax-svg/contours/left-land-underlay.svg"
+  },
+  {
+    "id": "left-gap-bushes",
+    "file": "02b-left-gap-bushes.png",
+    "bounds": {
+      "left": 0,
+      "top": 463,
+      "width": 319,
+      "height": 219
+    },
+    "pathCount": 207,
+    "output": "public/art/parallax-svg/contours/left-gap-bushes.svg"
+  },
+  {
+    "id": "mountains",
+    "file": "03-distant-mountains.png",
+    "bounds": {
+      "left": 468,
+      "top": 268,
+      "width": 1204,
+      "height": 353
+    },
+    "pathCount": 1040,
+    "output": "public/art/parallax-svg/contours/mountains.svg"
+  },
+  {
+    "id": "background-village",
+    "file": "04-background-village-and-plants.png",
+    "bounds": {
+      "left": 0,
+      "top": 138,
+      "width": 1672,
+      "height": 599
+    },
+    "pathCount": 1040,
+    "output": "public/art/parallax-svg/contours/background-village.svg"
+  },
+  {
+    "id": "boat",
+    "file": "05-boat.png",
+    "bounds": {
+      "left": 1589,
+      "top": 591,
+      "width": 53,
+      "height": 156
+    },
+    "pathCount": 25,
+    "output": "public/art/parallax-svg/contours/boat.svg"
+  },
+  {
+    "id": "main-villa",
+    "file": "06-main-villa-and-attached-plants.png",
+    "bounds": {
+      "left": 203,
+      "top": 308,
+      "width": 839,
+      "height": 569
+    },
+    "pathCount": 1040,
+    "output": "public/art/parallax-svg/contours/main-villa.svg"
+  },
+  {
+    "id": "left-wall",
+    "file": "07-left-stone-wall.png",
+    "bounds": {
+      "left": 0,
+      "top": 568,
+      "width": 524,
+      "height": 373
+    },
+    "pathCount": 437,
+    "output": "public/art/parallax-svg/contours/left-wall.svg"
+  },
+  {
+    "id": "foreground-plants",
+    "file": "08-foreground-olive-branches.png",
+    "bounds": {
+      "left": 0,
+      "top": 681,
+      "width": 1672,
+      "height": 260
+    },
+    "pathCount": 975,
+    "output": "public/art/parallax-svg/contours/foreground-plants.svg"
+  }
+]

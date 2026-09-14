@@ -1,0 +1,9 @@
+mountains: score=0.867, coverage=5.776%
+far-shore: score=0.746, coverage=2.147%
+right-village: score=0.641, coverage=2.368%
+left-hillside: score=0.703, coverage=2.224%
+villa: score=0.728, coverage=12.849%
+mid-vegetation: score=0.622, coverage=18.553%
+foreground: score=0.829, coverage=9.588%
+water: score=0.938, coverage=8.896%
+neutral composite exact: True

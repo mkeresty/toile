@@ -1,0 +1,23 @@
+[
+  {
+    "id": "garden",
+    "file": "02-garden.png",
+    "direction": "vertical",
+    "pathCount": 2060,
+    "output": "public/art/story-svg/contours/garden.svg"
+  },
+  {
+    "id": "table",
+    "file": "03-table.png",
+    "direction": "horizontal",
+    "pathCount": 2060,
+    "output": "public/art/story-svg/contours/table.svg"
+  },
+  {
+    "id": "water",
+    "file": "04-water.png",
+    "direction": "radial",
+    "pathCount": 2060,
+    "output": "public/art/story-svg/contours/water.svg"
+  }
+]

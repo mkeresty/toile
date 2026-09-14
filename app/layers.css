@@ -1,0 +1,3 @@
+.png-layer{position:absolute;z-index:var(--z);left:50%;bottom:-8vh;width:max(100vw,calc(108vh * 1.777));height:auto;max-width:none;pointer-events:none;user-select:none;will-change:transform;transform:translate3d(-50%,calc(var(--travel,0px) * var(--speed)),0)}
+@media(max-width:700px){.png-layer{width:auto;height:76svh;left:66%;bottom:0;transform:translate3d(-66%,calc(var(--travel,0px) * var(--speed) * .45),0)}}
+@media(prefers-reduced-motion:reduce){.png-layer{transform:translateX(-50%)}@media(max-width:700px){.png-layer{transform:translateX(-67%)}}}

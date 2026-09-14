@@ -1,0 +1,246 @@
+.page {
+  min-height: 100vh;
+  background: #fbf7e9;
+  color: #0f4d9a;
+}
+
+.controls {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 64px;
+  padding: 10px 22px;
+  border-bottom: 1px solid rgb(15 77 154 / 20%);
+  background: rgb(251 247 233 / 92%);
+  backdrop-filter: blur(12px);
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls button,
+.controls select {
+  min-height: 36px;
+  border: 1px solid rgb(15 77 154 / 35%);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+.controls button {
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.controls button:hover,
+.controls button:focus-visible,
+.controls select:focus-visible {
+  outline: none;
+  border-color: #0f4d9a;
+  background: rgb(15 77 154 / 7%);
+}
+
+.controls button:disabled {
+  cursor: wait;
+  opacity: 0.45;
+}
+
+.controls label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.controls select {
+  padding: 0 30px 0 12px;
+}
+
+.components {
+  width: min(1540px, 100%);
+  margin: 0 auto;
+}
+
+.componentSection {
+  padding: 28px 24px 42px;
+  border-bottom: 1px solid rgb(15 77 154 / 20%);
+}
+
+.componentHeading {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.componentHeading span,
+.componentHeading p {
+  color: rgb(15 77 154 / 62%);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.componentHeading h2,
+.componentHeading p {
+  margin: 0;
+}
+
+.componentHeading h2 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.comparisonRow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid rgb(15 77 154 / 18%);
+  border-radius: 12px;
+  background: rgb(15 77 154 / 18%);
+}
+
+.card {
+  min-width: 0;
+  background: #fbf7e9;
+}
+
+.artwork {
+  position: relative;
+  overflow: hidden;
+  background-color: #fbf7e9;
+  background-image: radial-gradient(rgb(15 77 154 / 12%) 0.7px, transparent 0.7px);
+  background-size: 12px 12px;
+}
+
+.wide { height: clamp(190px, 26vw, 330px); }
+.landscape { height: clamp(300px, 42vw, 560px); }
+.portrait { height: clamp(440px, 58vw, 650px); }
+
+.svg {
+  position: absolute;
+  inset: 18px;
+  display: block;
+  width: calc(100% - 36px);
+  height: calc(100% - 36px);
+  overflow: visible;
+}
+
+.animationMount {
+  position: absolute;
+  inset: 0;
+}
+
+.contour {
+  mix-blend-mode: multiply;
+}
+
+.card h3 {
+  min-height: 46px;
+  margin: 0;
+  padding: 13px 16px;
+  border-top: 1px solid rgb(15 77 154 / 15%);
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.methodTag {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 2;
+  padding: 4px 8px;
+  border: 1px solid rgb(15 77 154 / 12%);
+  border-radius: 999px;
+  background: rgb(251 247 233 / 88%);
+  color: rgb(15 77 154 / 72%);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+
+.foundationArtwork {
+  height: 150px;
+  overflow: hidden;
+  border: 1px solid rgb(15 77 154 / 18%);
+  border-radius: 12px;
+}
+
+.foundationArtwork img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.loadingArea {
+  position: relative;
+  min-height: 70vh;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgb(15 77 154 / 18%);
+  border-top-color: #0f4d9a;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  translate: -50% -50%;
+}
+
+.error {
+  margin: 0;
+  padding: 18px;
+  color: #8b1f2d;
+  text-align: center;
+}
+
+@keyframes spin {
+  to { transform: rotate(1turn); }
+}
+
+@media (max-width: 760px) {
+  .controls {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 12px 16px;
+  }
+
+  .actions {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .componentSection { padding: 24px 14px 34px; }
+  .componentHeading { grid-template-columns: 28px 1fr; }
+  .componentHeading p { display: none; }
+  .comparisonRow { grid-template-columns: 1fr; }
+  .wide { height: 230px; }
+  .landscape { height: 360px; }
+  .portrait { height: 520px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loading { animation: none; }
+}
