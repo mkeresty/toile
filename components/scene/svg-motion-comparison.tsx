@@ -62,17 +62,17 @@ function AnimatedSvg({
 
     for (const child of Array.from(svg.children)) {
       const tag = child.tagName.toLowerCase();
-      if (!["defs", "style", "title", "desc"].includes(tag)) finalGroup.append(child);
+      if (!["defs", "style", "title", "desc"].includes(tag)) finalGroup.appendChild(child);
     }
 
-    svg.append(finalGroup);
+    svg.appendChild(finalGroup);
 
     const drawingGroup = finalGroup.cloneNode(true) as SVGGElement;
     drawingGroup.removeAttribute("id");
     drawingGroup.removeAttribute("data-motion-final");
     drawingGroup.dataset.motionDrawing = "";
     drawingGroup.setAttribute("aria-hidden", "true");
-    svg.append(drawingGroup);
+    svg.appendChild(drawingGroup);
 
     finalGroup.style.opacity = "0";
 
